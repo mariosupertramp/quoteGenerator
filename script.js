@@ -45,9 +45,7 @@ function newQuote(){
     }    
     quoteText.textContent = quote.text;
     completado()
-
 }
-
 
 
 // get las frases desde la API

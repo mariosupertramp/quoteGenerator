@@ -4,4 +4,4 @@
 #### Responsivo<br>
 #### Usando la API de type.fit para obtener las frases<br>
 #### Además permite enlazar con Twitter para publicar la frase aleatoria seleccionada<br>
-#### Loading con CSS<br>
+#### Loading con CSS
