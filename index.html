@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=maheya-design">
-    <title>Picture in Picture</title>
+    <title>Quote generator</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
-    
-<!-- Video -->
-
+   
 <div class="quote-container" id="quote-container">
 
     <!-- quotes  -->
@@ -26,13 +26,22 @@
         <span id="author"></span>
      </div>
 
-<div class="button-container">
+   
+     <!-- buttons -->
 
-   <button id="button">INICIAR</button>
+     <div class="button-container">
+<button class="twitter-button" id="twitter" title="Twittea esto!">
+<i class="fab fa-twitter"></i>
+</button>
+<button class="new-quote" id="new-quote">Nueva frase..</button>
+     </div>
 
 </div>
 
-<!-- Script -->
+
+
+<div class="loader" id="loader"></div>
+
 <script src="script.js"></script>
 </body>
 </html>
